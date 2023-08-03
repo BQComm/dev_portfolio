@@ -1,0 +1,39 @@
+'use client'
+import React, { useState } from 'react';
+import Navbar from './components/navbar';
+import Front from './components/front';
+import AboutMe from './components/about_me'
+import Works from './components/works';
+import Contacts from './components/contacts'
+import Footer from './components/footer';
+
+const Home: React.FC = () => {
+  const [currentComponent, setCurrentComponent] = useState<string>('Front');
+
+  const handleNavbarItemClick = (item: string) => {
+    setCurrentComponent(item);
+  };
+
+  const renderComponent = () => {
+    switch (currentComponent) {
+      case 'about_me':
+        return <AboutMe />;
+      case 'works':
+        return <Works />;
+      case 'contacts':
+        return <Contacts />;
+      default:
+        return <Front />;
+    }
+  };
+
+  return (
+    <div className='bg-seashell'>
+      <Navbar onClickItem={handleNavbarItemClick} />
+      {renderComponent()}
+      <Footer />
+    </div>
+  );
+};
+
+export default Home;
