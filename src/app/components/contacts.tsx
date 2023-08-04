@@ -8,8 +8,8 @@ import Ig from "./img/ig.svg";
 
 const Contacts: FunctionComponent = () => {
   return (
-    <div className="relative w-full min-h-screen overflow-x-auto flex flex-col py-0 px-[61px] box-border items-center justify-center gap-[55px] text-center xl:text-[64px] lg:text-[60px] md:text-[48px] sm:text-[48px] text-darkslategray font-changa-one">
-      <div className="relative tracking-[0.04em] flex items-center w-[844px] h-[91px] shrink-0">
+    <div className="relative w-full min-h-screen overflow-x-auto flex flex-col py-0 box-border items-center justify-center gap-[55px] text-center xl:text-[64px] lg:text-[60px] md:text-[48px] sm:text-[48px] text-darkslategray font-changa-one">
+      <div className="relative tracking-[0.04em] flex items-center shrink-0">
         <span className="[line-break:anywhere] w-full">
           <span>{`Get `}</span>
           <span className="font-covered-by-your-grace text-royalblue">in</span>
