@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/navbar';
 import Front from './components/front';
 import AboutMe from './components/about_me'
@@ -28,11 +29,19 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div className='bg-seashell'>
-      <Navbar onClickItem={handleNavbarItemClick} />
-      {renderComponent()}
-      <Footer />
-    </div>
+    <AnimatePresence>
+      <motion.div transition={{
+      ease: "linear",
+      duration: 2,
+      x: { duration: 1 }
+      }}>
+      <div className='bg-seashell'>
+        <Navbar onClickItem={handleNavbarItemClick} />
+          {renderComponent()}
+        <Footer />
+      </div>
+      </motion.div>
+    </AnimatePresence>
   );
 };
 
