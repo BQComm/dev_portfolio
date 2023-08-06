@@ -29,19 +29,13 @@ const Home: React.FC = () => {
   };
 
   return (
-    <AnimatePresence>
-      <motion.div transition={{
-      ease: "linear",
-      duration: 2,
-      x: { duration: 1 }
-      }}>
+
       <div className='bg-seashell'>
         <Navbar onClickItem={handleNavbarItemClick} />
-          {renderComponent()}
+                {renderComponent()}
         <Footer />
       </div>
-      </motion.div>
-    </AnimatePresence>
+
   );
 };
 
