@@ -1,8 +1,8 @@
 'use client'
-import Image from 'next/image';
-import { FunctionComponent } from "react";
-import small_b_boy from "./img/small_b_boy.jpg";
-import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image'
+import { FunctionComponent } from "react"
+import small_b_boy from "./img/small_b_boy.jpg"
+import { motion, AnimatePresence } from 'framer-motion'
 
 const Front: FunctionComponent = () => {
   return (
