@@ -1,11 +1,11 @@
 'use client'
-import Image from 'next/image';
-import { FunctionComponent } from "react";
-import be from "./img/be.svg";
-import email from "./img/email.svg";
-import In from "./img/in.svg";
-import Ig from "./img/ig.svg";
-import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image'
+import { FunctionComponent } from "react"
+import be from "./img/be.svg"
+import email from "./img/email.svg"
+import In from "./img/in.svg"
+import Ig from "./img/ig.svg"
+import { motion, AnimatePresence } from 'framer-motion'
 
 const Contacts: FunctionComponent = () => {
   return (
