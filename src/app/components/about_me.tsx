@@ -3,6 +3,10 @@ import Image from 'next/image'
 import { FunctionComponent } from "react"
 import small_b_boy from "./img/small_b_boy.jpg"
 import { motion, AnimatePresence } from 'framer-motion'
+import { SiTailwindcss, SiNextdotjs, SiBootstrap } from 'react-icons/si'
+import { BiLogoJavascript, BiLogoTypescript, BiLogoPostgresql, BiLogoAngular, BiLogoReact, BiLogoSass, BiLogoCss3, BiLogoHtml5 } from 'react-icons/Bi'
+import { FaFigma } from 'react-icons/fa'
+import { BsGit } from 'react-icons/bs'
 
 const AboutMe: FunctionComponent = () => {
   return (
@@ -26,13 +30,20 @@ const AboutMe: FunctionComponent = () => {
                   <b className='font-changa text-black'> Developer!</b>
                 </span>
               </span>
-          <div className="p-2 py-3 px-0 items-start justify-start xl:text-[36px] lg:text-[32px] md:text-[24px] sm:text-[16px]">
-                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default justify-start border-[2px] border-solid border-darkslategray text-black font-changa font-extralight">{`<Javascript>`}</button>
-                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default justify-start border-[2px] border-solid border-darkslategray text-black font-changa font-extralight">{`<Typescript>`}</button>
-                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default justify-start border-[2px] border-solid border-darkslategray text-black font-changa font-extralight">{`<Tailwind>`}</button>
-                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default justify-start border-[2px] border-solid border-darkslategray text-black font-changa font-extralight">{`<Git>`}</button>
-                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default justify-start border-[2px] border-solid border-darkslategray text-black font-changa font-extralight">{`<Next.js>`}</button>
-                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default justify-start border-[2px] border-solid border-darkslategray text-black font-changa font-extralight">{`<SQL>`}</button>
+          <div className="px-2 py-3 items-start justify-start xl:text-[36px] lg:text-[32px] md:text-[24px] sm:text-[16px]">
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><BiLogoJavascript /></button>
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><BiLogoTypescript /></button>
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><BiLogoHtml5 /></button>
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><SiTailwindcss /></button>
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><SiBootstrap /></button>
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><BiLogoSass /></button>
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><BiLogoCss3 /></button>
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><BsGit /></button>
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><BiLogoPostgresql /></button>
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><BiLogoReact /></button>
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><SiNextdotjs /></button>
+                {/* <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><BiLogoAngular /></button> */}
+                <button className="tracking-[0.04em] m-1 bg-salmon cursor-default py-1 px-2 justify-center border-[2px] border-solid border-darkslategray text-black"><FaFigma /></button>
             </div>
           <div className="p-4">
             <p className="xl:text-[36px] lg:text-[32px] md:text-[28px] sm:text-[16px] font-changa text-black">{`With a former career on media and visual communications, I started web dev as a hobby. I felt pretty confident in my UX/UI skills, so I leveled-up until I mastered Next.js. It turns out that my keen eye for detail, complements with my developer abilities!`}</p>
