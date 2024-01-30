@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { FunctionComponent } from "react"
 import { motion, AnimatePresence } from 'framer-motion'
-import { FaTwitter, FaPager } from 'react-icons/fa'
+import { FaTwitter, FaPager, FaVideo } from 'react-icons/fa'
 import { SiNextdotjs } from 'react-icons/si'
 import { BsBriefcaseFill } from "react-icons/bs";
 
@@ -26,6 +26,11 @@ const projects = [
     link: 'https://bqcomm.github.io/Corporate1/',
     icon: <BsBriefcaseFill className='text-salmon lg:w-[200px] md:w-[100px] lg:h-[200px] md:h-[100px] transition delay-150 duration-300 hover:rotate-6' />,
     label: '<SCSS_basic_page>'
+  },
+  {
+    link: 'https://video-editor-h70t3bj7t-bqcomm.vercel.app/',
+    icon: <FaVideo className='text-salmon lg:w-[200px] md:w-[100px] lg:h-[200px] md:h-[100px] transition delay-150 duration-300 hover:rotate-6' />,
+    label: '<Basic_Video_Editor>'
   }
 ];
 
