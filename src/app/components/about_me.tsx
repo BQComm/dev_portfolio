@@ -5,8 +5,8 @@ import small_b_boy from "./img/small_b_boy.jpg"
 import { motion, AnimatePresence } from 'framer-motion'
 
 const skills = [
-  'JavaScript', 'TypeScript', 'HTML', 'Tailwind', 'Bootstrap', 'Sass',
-  'CSS', 'Git', 'SQL', 'React', 'Next', 'Svelte', 'Astro', 'Node', 'Figma'
+  'Branding', 'Web Design', 'UX/UI', 'Social Media', 'Motion Graphics', 'Video Editing',
+  'AI-Gen Skills'
 ];
 
 const AboutMe: FunctionComponent = () => {
@@ -26,9 +26,9 @@ const AboutMe: FunctionComponent = () => {
                 <span className="tracking-[0.04em] xl:text-[42px] lg:text-[40px] md:text-[24px] sm:text-[16px]">
                   <b className="font-changa text-black">{`I’m a `}</b>
                   <span className="font-covered-by-your-grace text-royalblue">
-                    Front-End
+                    Graphic
                   </span>
-                  <b className='font-changa text-black'> Developer!</b>
+                  <b className='font-changa text-black'> Generalist Designer!</b>
                 </span>
               </span>
         <div className="px-2 py-3 flex flex-wrap items-start justify-start xl:text-[36px] lg:text-[32px] md:text-[24px] sm:text-[16px]">
@@ -42,7 +42,7 @@ const AboutMe: FunctionComponent = () => {
             ))}
         </div>
           <div className="p-4">
-            <p className="xl:text-[36px] lg:text-[32px] md:text-[28px] sm:text-[16px] font-changa text-black">{`With a former career on media and visual communications, I started web dev as a hobby. I felt pretty confident in my UX/UI skills, so I leveled-up until I mastered Next.js. It turns out that my keen eye for detail, complements with my developer abilities!`}</p>
+            <p className="xl:text-[36px] lg:text-[32px] md:text-[28px] sm:text-[16px] font-changa text-black">{`With a former career on media and visual communications, I started graphic design as a hobby. I felt pretty confident in my Branding skills, so I leveled-up until I mastered UX/UI and social media graphic content. It turns out that my keen eye for detail, complements with my communication abilities!`}</p>
           </div>
         </div>
       </div>
